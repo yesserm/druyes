@@ -1,0 +1,7 @@
+name: Tema Yesser
+type: theme
+description: Un tema creado para personalizar
+version: VERSION
+base theme: stable
+core: 8.x
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,19 @@
+{
+  "name": "druyes_theme",
+  "version": "1.0.0",
+  "description": "Druyes Drupal 9 theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yesser Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^8.0.0"
+  }
+}
