@@ -1,4 +1,4 @@
-name: Tema Yesser
+name: Druyes
 type: theme
 description: Un tema creado para personalizar
 version: VERSION
@@ -9,3 +9,8 @@ core_version_requirement: ^8 || ^9
 libraries:
   - druyes/global-styling
   - druyes/global-scripts
+
+regions:
+  header: 'Cabecera'
+  content: 'Contenido'
+  footer: 'Pie de página'
