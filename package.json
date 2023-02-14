@@ -11,9 +11,13 @@
   "devDependencies": {
     "browser-sync": "^2.27.11",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-connect-php": "^1.0.3",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }
