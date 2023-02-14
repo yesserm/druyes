@@ -9,7 +9,12 @@ let autoprefixer = require('gulp-autoprefixer');
 // definir la tarea de gulp
 gulp.task('sass', done => {
   gulp.src('./scss/**/*.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(autoprefixer({
+      cascade: false
+    }))
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream());
 

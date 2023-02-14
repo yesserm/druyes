@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AACA,KACE,aAFa,CAGb,mBAAS,CAAT,oBAAS,CAAT,mBAAS,CAAT,YAAa","file":"style.css","sourcesContent":["$color: #ffc109;\nh2 a {\n  color: $color;\n  display: flex;\n}\n"]}
