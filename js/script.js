@@ -1,4 +1,4 @@
-console.log("HOLA THEME DRUYES");
+/*
 
 (function ($, Drupal){
   Drupal.behaviors.druyes = {
@@ -9,3 +9,6 @@ console.log("HOLA THEME DRUYES");
     }
   };
 })(jQuery, Drupal);
+
+
+ */
