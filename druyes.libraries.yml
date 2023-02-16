@@ -2,12 +2,12 @@ global-styling:
   css:
     theme:
       css/style.css: {}
-      node_modules/bootstrap/dist/css/bootstrap.css: {}
+      css/bs/bootstrap.min.css: {}
 
 global-scripts:
   js:
     js/script.js: {}
-    node_modules/bootstrap/dist/js/bootstrap.bundle.js: {}
-    node_modules/bootstrap/dist/js/bootstrap.js: { }
+    js/bs/bootstrap.bundle.min.js: {}
+    js/bs/bootstrap.min.js: { }
   dependencies:
     - core/jquery

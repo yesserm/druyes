@@ -11,3 +11,17 @@ function druyes_page_attachments_alter(&$page) {
   );
   $page['#attached']['html_head'][] = [$viewport, 'viewport'];
 }
+
+function druyes_preprocess_page(&$vars) {
+  $current_path = \Drupal::service('path.current')->getPath();
+  $language = $vars['language']->getId();
+
+  if ($language == 'es') {
+    $vars['switch_path'] = '/es' . $current_path;
+    $vars['switch_lang'] = t('Spanish');
+  }
+  else {
+    $vars['switch_path'] = $current_path; //default path english
+    $vars['switch_lang'] = t('English');
+  }
+}
